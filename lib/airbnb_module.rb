@@ -25,7 +25,7 @@ module AirbnbModule
     
     # Variables declarations
     session_cookie  = args[:session_cookie]   || nil
-    room_id         = args[:room_id]          || 5780104
+    room_id         = args[:room_id]          || 0000000
     start_date      = args[:start_date]       || DateTime.now.strftime("%F")
     end_date        = args[:end_date]         || DateTime.now.strftime("%F")
     price           = args[:price]            || 10
